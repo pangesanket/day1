@@ -1,0 +1,12 @@
+Pipeline{
+    agent any
+    
+    Stages{
+        stage{
+            steps{
+                echo 'scm checkout'
+                git 'https://github.com/pangesanket/dummy-question-pattern.git'
+            }
+        }
+    }
+}
