@@ -63,3 +63,20 @@ SB/ZOxrO9SU1Eh+14dp/8WAKS2uvenAxMSAul0lNIl3klJ+BpGCcP5Q97H5LFiHf
 8Upwp3uS0dEB4rZNR5fpEcP5RtXKAwHVYfje2NSwKQXJ2ZO6PPnLq/B7MqhJ/9Da
 yEUuQLBE5NRDUscvQCieC9NcdiyfswL2CjANAYIqHKq+LIKzaEZwvk752WTP
 -----END RSA PRIVATE KEY-----
+
+
+
+/usr/lib/jvm/java-17-openjdk-amd64
+
+wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.100/bin/apache-tomcat-8.5.100.tar.gz
+
+tar -xvzf /opt/apache-tomcat-10.1.26.tar.gz
+
+https://downloads.apache.org/tomcat/tomcat-8/v8.5.100/bin/apache-tomcat-8.5.100-fulldocs.tar.gz.asc
+
+wget https://dlcdn.apache.org/tomcat/tomcat-10/v10.1.26/bin/apache-tomcat-10.1.26.tar.gz
+
+tar -xvzf /opt/apache-tomcat-10.1.26.tar.gz
+
+
+mv apache-tomcat-10.1.26 tomcat
